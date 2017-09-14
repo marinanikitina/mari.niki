@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_zXah0JmKEeexEbmG8xrwVA" name="model">
+  <eAnnotations xmi:id="_zXah0ZmKEeexEbmG8xrwVA" source="genmymodel">
+    <details xmi:id="_zXah0pmKEeexEbmG8xrwVA" key="uuid" value="_if2WgJmEEeexEbmG8xrwVA"/>
+    <details xmi:id="_zXah05mKEeexEbmG8xrwVA" key="author" value="marinanikitina"/>
+  </eAnnotations>
+  <packageImport xmi:id="_zXah1JmKEeexEbmG8xrwVA">
+    <eAnnotations xmi:id="_zXah1ZmKEeexEbmG8xrwVA" source="genmymodel">
+      <details xmi:id="_zXah1pmKEeexEbmG8xrwVA" key="uuid" value="_if29kJmEEeexEbmG8xrwVA"/>
+    </eAnnotations>
+    <importedPackage href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#/"/>
+  </packageImport>
+  <packagedElement xsi:type="uml:Activity" xmi:id="_zXah15mKEeexEbmG8xrwVA" name="Activity">
+    <eAnnotations xmi:id="_zXah2JmKEeexEbmG8xrwVA" source="genmymodel">
+      <details xmi:id="_zXah2ZmKEeexEbmG8xrwVA" key="uuid" value="_if29kZmEEeexEbmG8xrwVA"/>
+    </eAnnotations>
+    <ownedTemplateSignature xsi:type="uml:RedefinableTemplateSignature" xmi:id="_zXah2pmKEeexEbmG8xrwVA" parameter="_zXah3ZmKEeexEbmG8xrwVA">
+      <eAnnotations xmi:id="_zXah25mKEeexEbmG8xrwVA" source="genmymodel">
+        <details xmi:id="_zXah3JmKEeexEbmG8xrwVA" key="uuid" value="_8JpyMHu3EDW3qNPmht2laA"/>
+      </eAnnotations>
+      <ownedParameter xsi:type="uml:ClassifierTemplateParameter" xmi:id="_zXah3ZmKEeexEbmG8xrwVA" parameteredElement="_zXah4JmKEeexEbmG8xrwVA">
+        <eAnnotations xmi:id="_zXah3pmKEeexEbmG8xrwVA" source="genmymodel">
+          <details xmi:id="_zXah35mKEeexEbmG8xrwVA" key="uuid" value="_8JlgwHu3EDW3qNPmht2laA"/>
+        </eAnnotations>
+        <ownedParameteredElement xsi:type="uml:Class" xmi:id="_zXah4JmKEeexEbmG8xrwVA" name="T" templateParameter="_zXah3ZmKEeexEbmG8xrwVA">
+          <eAnnotations xmi:id="_zXah4ZmKEeexEbmG8xrwVA" source="genmymodel">
+            <details xmi:id="_zXah4pmKEeexEbmG8xrwVA" key="uuid" value="_8JuDoHu3EDW3qNPmht2laA"/>
+          </eAnnotations>
+        </ownedParameteredElement>
+      </ownedParameter>
+    </ownedTemplateSignature>
+    <edge xsi:type="uml:ControlFlow" xmi:id="_zXah45mKEeexEbmG8xrwVA" name="ControlFlow" target="_zXaiCpmKEeexEbmG8xrwVA" source="_zXaiB5mKEeexEbmG8xrwVA">
+      <eAnnotations xmi:id="_zXah5JmKEeexEbmG8xrwVA" source="genmymodel">
+        <details xmi:id="_zXah5ZmKEeexEbmG8xrwVA" key="uuid" value="_wOOpYHu0EDW3qNPmht2laA"/>
+      </eAnnotations>
+      <guard xsi:type="uml:LiteralString" xmi:id="_zXah5pmKEeexEbmG8xrwVA" value="true">
+        <eAnnotations xmi:id="_zXah55mKEeexEbmG8xrwVA" source="genmymodel">
+          <details xmi:id="_zXah6JmKEeexEbmG8xrwVA" key="uuid" value="_wOH7sHu0EDW3qNPmht2laA"/>
+        </eAnnotations>
+      </guard>
+    </edge>
+    <edge xsi:type="uml:ControlFlow" xmi:id="_zXah6ZmKEeexEbmG8xrwVA" name="ControlFlow2" target="_zXaiDZmKEeexEbmG8xrwVA" source="_zXaiCpmKEeexEbmG8xrwVA">
+      <eAnnotations xmi:id="_zXah6pmKEeexEbmG8xrwVA" source="genmymodel">
+        <details xmi:id="_zXah65mKEeexEbmG8xrwVA" key="uuid" value="_JkpNIHu3EDW3qNPmht2laA"/>
+      </eAnnotations>
+      <guard xsi:type="uml:LiteralString" xmi:id="_zXah7JmKEeexEbmG8xrwVA" value="true">
+        <eAnnotations xmi:id="_zXah7ZmKEeexEbmG8xrwVA" source="genmymodel">
+          <details xmi:id="_zXah7pmKEeexEbmG8xrwVA" key="uuid" value="_JkjtkHu3EDW3qNPmht2laA"/>
+        </eAnnotations>
+      </guard>
+    </edge>
+    <edge xsi:type="uml:ControlFlow" xmi:id="_zXah75mKEeexEbmG8xrwVA" name="ControlFlow3" target="_zXaiEJmKEeexEbmG8xrwVA" source="_zXaiDZmKEeexEbmG8xrwVA">
+      <eAnnotations xmi:id="_zXah8JmKEeexEbmG8xrwVA" source="genmymodel">
+        <details xmi:id="_zXah8ZmKEeexEbmG8xrwVA" key="uuid" value="_KsPHUHu3EDW3qNPmht2laA"/>
+      </eAnnotations>
+      <guard xsi:type="uml:LiteralString" xmi:id="_zXah8pmKEeexEbmG8xrwVA" value="true">
+        <eAnnotations xmi:id="_zXah85mKEeexEbmG8xrwVA" source="genmymodel">
+          <details xmi:id="_zXah9JmKEeexEbmG8xrwVA" key="uuid" value="_KsMrEHu3EDW3qNPmht2laA"/>
+        </eAnnotations>
+      </guard>
+    </edge>
+    <edge xsi:type="uml:ControlFlow" xmi:id="_zXah9ZmKEeexEbmG8xrwVA" name="ControlFlow4" target="_zXaiE5mKEeexEbmG8xrwVA" source="_zXaiEJmKEeexEbmG8xrwVA">
+      <eAnnotations xmi:id="_zXah9pmKEeexEbmG8xrwVA" source="genmymodel">
+        <details xmi:id="_zXah95mKEeexEbmG8xrwVA" key="uuid" value="_LeIeUHu3EDW3qNPmht2laA"/>
+      </eAnnotations>
+      <guard xsi:type="uml:LiteralString" xmi:id="_zXah-JmKEeexEbmG8xrwVA" value="true">
+        <eAnnotations xmi:id="_zXah-ZmKEeexEbmG8xrwVA" source="genmymodel">
+          <details xmi:id="_zXah-pmKEeexEbmG8xrwVA" key="uuid" value="_LeGpIHu3EDW3qNPmht2laA"/>
+        </eAnnotations>
+      </guard>
+    </edge>
+    <edge xsi:type="uml:ControlFlow" xmi:id="_zXah-5mKEeexEbmG8xrwVA" name="ControlFlow5" target="_zXaiFpmKEeexEbmG8xrwVA" source="_zXaiE5mKEeexEbmG8xrwVA">
+      <eAnnotations xmi:id="_zXah_JmKEeexEbmG8xrwVA" source="genmymodel">
+        <details xmi:id="_zXah_ZmKEeexEbmG8xrwVA" key="uuid" value="_MKB7AHu3EDW3qNPmht2laA"/>
+      </eAnnotations>
+      <guard xsi:type="uml:LiteralString" xmi:id="_zXah_pmKEeexEbmG8xrwVA" value="true">
+        <eAnnotations xmi:id="_zXah_5mKEeexEbmG8xrwVA" source="genmymodel">
+          <details xmi:id="_zXaiAJmKEeexEbmG8xrwVA" key="uuid" value="_MJ9CgHu3EDW3qNPmht2laA"/>
+        </eAnnotations>
+      </guard>
+    </edge>
+    <edge xsi:type="uml:ControlFlow" xmi:id="_zXaiAZmKEeexEbmG8xrwVA" name="ControlFlow6" target="_zXaiGZmKEeexEbmG8xrwVA" source="_zXaiFpmKEeexEbmG8xrwVA">
+      <eAnnotations xmi:id="_zXaiApmKEeexEbmG8xrwVA" source="genmymodel">
+        <details xmi:id="_zXaiA5mKEeexEbmG8xrwVA" key="uuid" value="_PBw9IHu3EDW3qNPmht2laA"/>
+      </eAnnotations>
+      <guard xsi:type="uml:LiteralString" xmi:id="_zXaiBJmKEeexEbmG8xrwVA" value="true">
+        <eAnnotations xmi:id="_zXaiBZmKEeexEbmG8xrwVA" source="genmymodel">
+          <details xmi:id="_zXaiBpmKEeexEbmG8xrwVA" key="uuid" value="_PBsEoHu3EDW3qNPmht2laA"/>
+        </eAnnotations>
+      </guard>
+    </edge>
+    <ownedNode xsi:type="uml:InitialNode" xmi:id="_zXaiB5mKEeexEbmG8xrwVA" name="InitialNode" outgoing="_zXah45mKEeexEbmG8xrwVA">
+      <eAnnotations xmi:id="_zXaiCJmKEeexEbmG8xrwVA" source="genmymodel">
+        <details xmi:id="_zXaiCZmKEeexEbmG8xrwVA" key="uuid" value="_elvvwHu0EDW3qNPmht2laA"/>
+      </eAnnotations>
+    </ownedNode>
+    <ownedNode xsi:type="uml:OpaqueAction" xmi:id="_zXaiCpmKEeexEbmG8xrwVA" name="  enter the number of minutes: 65526" incoming="_zXah45mKEeexEbmG8xrwVA" outgoing="_zXah6ZmKEeexEbmG8xrwVA">
+      <eAnnotations xmi:id="_zXaiC5mKEeexEbmG8xrwVA" source="genmymodel">
+        <details xmi:id="_zXaiDJmKEeexEbmG8xrwVA" key="uuid" value="_fYYGkHu0EDW3qNPmht2laA"/>
+      </eAnnotations>
+    </ownedNode>
+    <ownedNode xsi:type="uml:OpaqueAction" xmi:id="_zXaiDZmKEeexEbmG8xrwVA" name=" hours = ( min / 60 ) /24" incoming="_zXah6ZmKEeexEbmG8xrwVA" outgoing="_zXah75mKEeexEbmG8xrwVA">
+      <eAnnotations xmi:id="_zXaiDpmKEeexEbmG8xrwVA" source="genmymodel">
+        <details xmi:id="_zXaiD5mKEeexEbmG8xrwVA" key="uuid" value="_zJoDgHu0EDW3qNPmht2laA"/>
+      </eAnnotations>
+    </ownedNode>
+    <ownedNode xsi:type="uml:OpaqueAction" xmi:id="_zXaiEJmKEeexEbmG8xrwVA" name="hours - days ( (min//60)//24) = hours and minutes" incoming="_zXah75mKEeexEbmG8xrwVA" outgoing="_zXah9ZmKEeexEbmG8xrwVA">
+      <eAnnotations xmi:id="_zXaiEZmKEeexEbmG8xrwVA" source="genmymodel">
+        <details xmi:id="_zXaiEpmKEeexEbmG8xrwVA" key="uuid" value="_WqBkcHu2EDW3qNPmht2laA"/>
+      </eAnnotations>
+    </ownedNode>
+    <ownedNode xsi:type="uml:OpaqueAction" xmi:id="_zXaiE5mKEeexEbmG8xrwVA" name="h&amp;m = min %60" incoming="_zXah9ZmKEeexEbmG8xrwVA" outgoing="_zXah-5mKEeexEbmG8xrwVA">
+      <eAnnotations xmi:id="_zXaiFJmKEeexEbmG8xrwVA" source="genmymodel">
+        <details xmi:id="_zXaiFZmKEeexEbmG8xrwVA" key="uuid" value="_n7RCwHu2EDW3qNPmht2laA"/>
+      </eAnnotations>
+    </ownedNode>
+    <ownedNode xsi:type="uml:OpaqueAction" xmi:id="_zXaiFpmKEeexEbmG8xrwVA" name="print : hour, minute " incoming="_zXah-5mKEeexEbmG8xrwVA" outgoing="_zXaiAZmKEeexEbmG8xrwVA">
+      <eAnnotations xmi:id="_zXaiF5mKEeexEbmG8xrwVA" source="genmymodel">
+        <details xmi:id="_zXaiGJmKEeexEbmG8xrwVA" key="uuid" value="_yfhrsHu2EDW3qNPmht2laA"/>
+      </eAnnotations>
+    </ownedNode>
+    <ownedNode xsi:type="uml:ActivityFinalNode" xmi:id="_zXaiGZmKEeexEbmG8xrwVA" name="ActivityFinalNode" incoming="_zXaiAZmKEeexEbmG8xrwVA">
+      <eAnnotations xmi:id="_zXaiGpmKEeexEbmG8xrwVA" source="genmymodel">
+        <details xmi:id="_zXaiG5mKEeexEbmG8xrwVA" key="uuid" value="_N-2uoHu3EDW3qNPmht2laA"/>
+      </eAnnotations>
+    </ownedNode>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Interaction" xmi:id="_zXaiHJmKEeexEbmG8xrwVA" name="Interaction">
+    <eAnnotations xmi:id="_zXaiHZmKEeexEbmG8xrwVA" source="genmymodel">
+      <details xmi:id="_zXaiHpmKEeexEbmG8xrwVA" key="uuid" value="_pHoPkHuzEDWsqOYGXNYNJw"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Activity" xmi:id="_zXaiH5mKEeexEbmG8xrwVA" name="Activity2">
+    <eAnnotations xmi:id="_zXaiIJmKEeexEbmG8xrwVA" source="genmymodel">
+      <details xmi:id="_zXaiIZmKEeexEbmG8xrwVA" key="uuid" value="_qkaWoHuzEDWsqOYGXNYNJw"/>
+    </eAnnotations>
+  </packagedElement>
+</uml:Model>
